@@ -19,13 +19,13 @@ Milligram provides a minimal setup of styles for a fast and clean starting point
 **Install with Bower**
 
 ```sh
-$ bower install milligram
+$ bower install milligram-scss
 ```
 
 **Install with npm**
 
 ```sh
-$ npm install milligram
+$ npm install milligram-scss
 ```
 
 
