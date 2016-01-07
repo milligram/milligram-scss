@@ -41,7 +41,7 @@ module.exports = function ( grunt ) {
       },
       sass: {
         files: [
-          'src/**/*.sass'
+          'src/**/*.scss'
         ],
         tasks: [
           'sass',
@@ -68,7 +68,7 @@ module.exports = function ( grunt ) {
           style: 'compressed'
         },
         files: {
-          'dist/milligram.min.css': [ 'src/**/*.sass', '!src/**/_*.sass' ]
+          'dist/milligram.min.css': [ 'src/**/*.scss', '!src/**/_*.scss' ]
         }
       },
       default: {
@@ -79,7 +79,7 @@ module.exports = function ( grunt ) {
           style: 'expanded'
         },
         files: {
-          'dist/milligram.css': [ 'src/**/*.sass', '!src/**/_*.sass' ]
+          'dist/milligram.css': [ 'src/**/*.scss', '!src/**/_*.scss' ]
         }
       }
     },
