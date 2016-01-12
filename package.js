@@ -1,6 +1,6 @@
 Package.describe({
 	name: 'milligram:milligram-scss',
-	version: '0.0.1',
+	version: '1.0.0',
 	summary: 'A minimalist CSS framework on SCSS version.',
 	git: 'https://github.com/milligram/milligram-scss.git',
 	documentation: 'readme.md'

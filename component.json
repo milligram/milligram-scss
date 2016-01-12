@@ -1,6 +1,6 @@
 {
 	"name": "milligram-scss",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"description": "A minimalist CSS framework on SCSS version.",
 	"homepage": "http://milligram.github.io",
 	"repository": "milligram/milligram-scss",
@@ -8,18 +8,15 @@
 	"author": "CJ Patoilo <cjpatoilo@gmail.com>",
 	"main": "dist/milligram.scss",
 	"keywords": [
-		"boilerplate",
 		"bootstrap",
 		"css",
 		"css3",
-		"design",
 		"front-end",
 		"framework",
 		"html",
 		"html5",
 		"kickstarter",
 		"less",
-		"milligram",
 		"responsive",
 		"mobile",
 		"mobile-first",
@@ -27,9 +24,7 @@
 		"responsive",
 		"sass",
 		"scss",
-		"stylus",
-		"style",
-		"stylesheet"
+		"stylus"
 	],
 	"ignore": [
 		".editorconfig",
