@@ -2,11 +2,11 @@
 
 | A minimalist CSS framework.
 
-[![Build Status](https://travis-ci.org/milligram/milligram.svg?branch=master)](https://travis-ci.org/milligram/milligram)
-[![GitHub version](https://badge.fury.io/gh/milligram%2Fmilligram.svg)](https://badge.fury.io/gh/milligram%2Fmilligram)
-[![Bower version](https://badge.fury.io/bo/milligram.svg)](https://badge.fury.io/bo/milligram)
-[![npm version](https://badge.fury.io/js/milligram.svg)](http://badge.fury.io/js/milligram)
-[![Dependencies Status](https://david-dm.org/milligram/milligram.svg)](https://travis-ci.org/milligram/milligram)
+[![Build Status](https://travis-ci.org/milligram/milligram-scss.svg?branch=master)](https://travis-ci.org/milligram/milligram-scss)
+[![GitHub version](https://badge.fury.io/gh/milligram%2Fmilligram-scss.svg)](https://badge.fury.io/gh/milligram%2Fmilligram-scss)
+[![Bower version](https://badge.fury.io/bo/milligram-scss.svg)](https://badge.fury.io/bo/milligram-scss)
+[![npm version](https://badge.fury.io/js/milligram-scss.svg)](http://badge.fury.io/js/milligram-scss)
+[![Dependencies Status](https://david-dm.org/milligram/milligram-scss.svg)](https://travis-ci.org/milligram/milligram-scss)
 
 
 ## Why it's awesome?
