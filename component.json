@@ -1,6 +1,6 @@
 {
 	"name": "milligram-scss",
-	"version": "1.0.0",
+	"version": "1",
 	"description": "A minimalist CSS framework on SCSS version.",
 	"homepage": "http://milligram.github.io",
 	"repository": "milligram/milligram-scss",
