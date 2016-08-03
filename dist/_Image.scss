@@ -7,29 +7,9 @@
 //
 
 
-// Utility
+// Image
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 
-// Float either direction
-.float-right {
-	float: right;
-}
-
-.float-left {
-	float: left;
-}
-
-// Clear a float with .clearfix
-.clearfix {
-	*zoom: 1;
-
-	&:after,
-	&:before {
-		content: '';
-		display: table;
-	}
-
-	&:after {
-		clear: both;
-	}
+img {
+	max-width: 100%;
 }

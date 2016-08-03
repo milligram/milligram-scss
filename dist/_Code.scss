@@ -1,3 +1,11 @@
+//
+// Milligram v1.1.0
+// http://milligram.github.io
+//
+// Copyright (c) 2016 CJ Patoilo
+// Licensed under the MIT license
+//
+
 
 // Code
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
@@ -14,7 +22,7 @@ code {
 pre {
 	background: $color-tertiary;
 	border-left: .3rem solid $color-primary;
-	font-family: Menlo, Consolas, 'Bitstream Vera Sans Mono', 'DejaVu Sans Mono', Monaco, monospace;
+	font-family: 'Menlo', 'Consolas', 'Bitstream Vera Sans Mono', 'DejaVu Sans Mono', 'Monaco', monospace;
 
 	& > code {
 		background: transparent;

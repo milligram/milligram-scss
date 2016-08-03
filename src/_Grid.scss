@@ -2,9 +2,8 @@
 // Grid
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 
-// .container is main centered wrapper with a max width of 1120rem (1120px)
+// .container is main centered wrapper with a max width of 112.0rem (1120px)
 .container {
-	box-sizing: border-box;
 	margin: 0 auto;
 	max-width: 112.0rem;
 	padding: 0 2.0rem;
@@ -16,24 +15,24 @@
 // http://philipwalton.github.io/solved-by-flexbox/demos/grids/
 // By default each .column within a .row will evenly take up
 // available width, and the height of each .column with take
-// up the height of the tallest .column in the same .row.
+// up the height of the tallest .column in the same .row
 .row {
 	display: flex;
 	flex-direction: column;
 	padding: 0;
 	width: 100%;
 
-	.row-wrap {
+	&.row-wrap {
 		flex-wrap: wrap;
 	}
 
-	.row-no-padding {
+	&.row-no-padding {
 		padding: 0;
+	}
 
 		&> .column {
 			padding: 0;
 		}
-	}
 
 	// & + .row
 	// 	margin-top: -.5rem;
@@ -41,23 +40,23 @@
 
 	// Vertically Align Columns
 	// .row-* vertically aligns every .col in the .row
-	.row-top {
+	&.row-top {
 		align-items: flex-start;
 	}
 
-	.row-bottom {
+	&.row-bottom {
 		align-items: flex-end;
 	}
 
-	.row-center {
+	&.row-center {
 		align-items: center;
 	}
 
-	.row-stretch {
+	&.row-stretch {
 		align-items: stretch;
 	}
 
-	.row-baseline {
+	&.row-baseline {
 		align-items: baseline;
 	}
 
@@ -184,6 +183,7 @@
 
 // Larger than mobile screen
 @media (min-width: 40.0rem) {
+
 	.row {
 		flex-direction: row;
 		margin-left: -1.0rem;

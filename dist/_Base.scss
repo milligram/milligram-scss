@@ -1,3 +1,11 @@
+//
+// Milligram v1.1.0
+// http://milligram.github.io
+//
+// Copyright (c) 2016 CJ Patoilo
+// Licensed under the MIT license
+//
+
 
 // Base
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
@@ -9,18 +17,19 @@ html {
 	font-size: 62.5%;
 }
 
+// Default body styles
 body {
 	color: $color-secondary;
-	font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 	font-size: 1.6em; // currently ems cause chrome bug misinterpreting rems on body element
 	font-weight: 300;
 	letter-spacing: .01em;
 	line-height: 1.6;
 }
 
-// Box Sizing FTW
+// Set box-sizing globally to handle padding and border widths
 *,
 *:after,
 *:before {
-	box-sizing: border-box;
+	box-sizing: inherit;
 }
