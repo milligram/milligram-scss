@@ -1,0 +1,35 @@
+//
+// Milligram v1.1.0
+// http://milligram.github.io
+//
+// Copyright (c) 2016 CJ Patoilo
+// Licensed under the MIT license
+//
+
+
+// Utility
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+// Float either direction
+.float-right {
+	float: right;
+}
+
+.float-left {
+	float: left;
+}
+
+// Clear a float with .clearfix
+.clearfix {
+	*zoom: 1;
+
+	&:after,
+	&:before {
+		content: '';
+		display: table;
+	}
+
+	&:after {
+		clear: both;
+	}
+}

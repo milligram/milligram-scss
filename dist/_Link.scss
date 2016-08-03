@@ -1,0 +1,20 @@
+//
+// Milligram v1.1.0
+// http://milligram.github.io
+//
+// Copyright (c) 2016 CJ Patoilo
+// Licensed under the MIT license
+//
+
+
+// Link
+// ––––––––––––––––––––––––––––––––––––––––––––––––––
+
+a {
+	color: $color-primary;
+	text-decoration: none;
+
+	&:hover {
+		color: $color-secondary;
+	}
+}

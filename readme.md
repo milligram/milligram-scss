@@ -1,12 +1,14 @@
-# [Milligram](http://milligram.github.io)
+<p align="center">
+	<a href="http://milligram.github.io"><img width="100%" src="https://raw.githubusercontent.com/milligram/milligram.github.io/master/img/thumbnail.jpg" alt="Milligram - A minimalist CSS framework on SCSS version"></a>
+</p>
 
-| A minimalist CSS framework.
+> A minimalist CSS framework on SCSS version.
 
 [![Build Status](https://travis-ci.org/milligram/milligram-scss.svg?branch=master)](https://travis-ci.org/milligram/milligram-scss)
-[![GitHub version](https://badge.fury.io/gh/milligram%2Fmilligram-scss.svg)](https://badge.fury.io/gh/milligram%2Fmilligram-scss)
-[![Bower version](https://badge.fury.io/bo/milligram-scss.svg)](https://badge.fury.io/bo/milligram-scss)
-[![npm version](https://badge.fury.io/js/milligram-scss.svg)](http://badge.fury.io/js/milligram-scss)
 [![Dependencies Status](https://david-dm.org/milligram/milligram-scss.svg)](https://travis-ci.org/milligram/milligram-scss)
+[![npm version](https://badge.fury.io/js/milligram-scss.svg)](https://badge.fury.io/js/milligram-scss)
+[![Bower version](https://badge.fury.io/bo/milligram-scss.svg)](https://badge.fury.io/bo/milligram-scss)
+[![Gitter chat](https://img.shields.io/badge/gitter-join_the_chat-4cc61e.svg)](https://gitter.im/milligram/milligram)
 
 
 ## Why it's awesome?
@@ -48,16 +50,9 @@ $ npm install milligram-scss
 
 ## Contributing
 
-Help improve these docs. Open an [issue](https://github.com/milligram/milligram/issues/new) or submit a pull request.
-
-- Navigate to the main page of the repository
-- [Fork it!](https://github.com/milligram/milligram#fork-destination-box)
-- Create your feature branch: git checkout -b my-new-feature
-- Commit your changes: git commit -m 'Add some feature'
-- Push to the branch: git push origin my-new-feature
-- Submit a pull request =D
+Want to contribute? Follow these [recommendations](https://github.com/milligram/milligram-scss/blob/master/.github/contributing.md).
 
 
 ## License
 
-[MIT License](http://cjpatoilo.mit-license.org/) @ CJ Patoilo
+Designed with ♥ by [CJ Patoilo](http://cjpatoilo.com). Licensed under the [MIT License](http://cjpatoilo.mit-license.org).

@@ -1,10 +1,18 @@
+//
+// Milligram v1.1.0
+// http://milligram.github.io
+//
+// Copyright (c) 2016 CJ Patoilo
+// Licensed under the MIT license
+//
 
-// Misc
+
+// Divider
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 
 hr {
+	border: 0;
 	border-top: .1rem solid $color-tertiary;
-	border-width: 0;
 	margin-bottom: 3.5rem;
-	margin-top: 3rem;
+	margin-top: 3.0rem;
 }

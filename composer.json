@@ -1,5 +1,5 @@
 {
-	"name": "milligram-scss",
+	"name": "milligram/milligram-scss",
 	"version": "1.1.0",
 	"description": "A minimalist CSS framework on SCSS version.",
 	"homepage": "http://milligram.github.io",
@@ -38,6 +38,7 @@
 		"changelog.md",
 		"component.json",
 		"composer.json",
+		"contributing.md",
 		"package.js",
 		"package.json",
 		"src",
