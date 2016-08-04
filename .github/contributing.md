@@ -40,7 +40,7 @@ First install [Node.js](https://nodejs.org/en/download/) for the build process. 
 
 ## Style Guide
 
-In this version, Milligram use [Sass](http://sass-lang.com/) to give super powers to CSS. Look at how the code is being maintained, we must always be consistent. We try to follow best practices as much as possible. In addition, here are some tips you should follow:
+In this version, Milligram use [SCSS](http://sass-lang.com/) to give super powers to CSS. Look at how the code is being maintained, we must always be consistent. We try to follow best practices as much as possible. In addition, here are some tips you should follow:
 
 - Properties and selectors are sorted in alphabetical order
 - Always use tab to indentation, no spaces
