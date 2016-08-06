@@ -5,3 +5,5 @@ node_js:
 before_install:
   - node --version
   - npm --version
+after_install:
+  - npm test
