@@ -1,5 +1,5 @@
 //
-// Milligram v1.1.0
+// Milligram v1.2.0
 // http://milligram.github.io
 //
 // Copyright (c) 2016 CJ Patoilo
@@ -10,26 +10,21 @@
 // Utility
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 
-// Float either direction
-.float-right {
-	float: right;
+// Clear a float with .clearfix
+.clearfix {
+
+	&:after {
+		clear: both;
+		content: ' '; // The space content is one way to avoid an Opera bug.
+		display: table;
+	}
 }
 
+// Float either direction
 .float-left {
 	float: left;
 }
 
-// Clear a float with .clearfix
-.clearfix {
-	*zoom: 1;
-
-	&:after,
-	&:before {
-		content: '';
-		display: table;
-	}
-
-	&:after {
-		clear: both;
-	}
+.float-right {
+	float: right;
 }

@@ -1,9 +1,4 @@
 sudo: false
 language: node_js
-node_js:
-  - 6
-before_install:
-  - node --version
-  - npm --version
-after_install:
-  - npm test
+node_js: 6
+scripts: npm test

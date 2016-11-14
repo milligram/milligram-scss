@@ -1,5 +1,5 @@
 //
-// Milligram v1.1.0
+// Milligram v1.2.0
 // http://milligram.github.io
 //
 // Copyright (c) 2016 CJ Patoilo
@@ -11,12 +11,12 @@
 // ––––––––––––––––––––––––––––––––––––––––––––––––––
 
 blockquote {
-	border-left: 0.3rem solid $color-quaternary;
+	border-left: .3rem solid $color-quaternary;
 	margin-left: 0;
 	margin-right: 0;
 	padding: 1rem 1.5rem;
 
-	& *:last-child {
-		margin: 0;
+	*:last-child {
+		margin-bottom: 0;
 	}
 }
