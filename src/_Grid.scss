@@ -28,16 +28,11 @@
 		&> .column {
 			padding: 0;
 		}
-
 	}
 
 	&.row-wrap {
 		flex-wrap: wrap;
 	}
-
-	// & + .row
-	// 	margin-top: -.5rem;
-	// 	padding-top: 0;
 
 	// Vertically Align Columns
 	// .row-* vertically aligns every .col in the .row
@@ -67,19 +62,6 @@
 		margin-left: 0;
 		max-width: 100%;
 		width: 100%;
-
-		// .column-* vertically aligns an individual .column
-		.col-top {
-			align-self: flex-start;
-		}
-
-		.col-bottom {
-			align-self: flex-end;
-		}
-
-		.col-center {
-			align-self: center;
-		}
 
 		// Column Offsets
 		&.column-offset-10 {
@@ -180,11 +162,24 @@
 			flex: 0 0 90%;
 			max-width: 90%;
 		}
+
+		// .column-* vertically aligns an individual .column
+		.column-top {
+			align-self: flex-start;
+		}
+
+		.column-bottom {
+			align-self: flex-end;
+		}
+
+		.column-center {
+			align-self: center;
+		}
 	}
 }
 
 // Larger than mobile screen
-@media (min-width: 40.0rem) {
+@media (min-width: 40.0rem) { // Safari desktop has a bug using `rem`, but Safari mobile works
 
 	.row {
 		flex-direction: row;

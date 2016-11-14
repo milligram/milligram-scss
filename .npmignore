@@ -2,8 +2,8 @@
 .github
 .gitignore
 .npmignore
+.sasslintrc
 .travis.yml
-.versions
 bower.json
 changelog.md
 component.json
