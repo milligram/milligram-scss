@@ -2,7 +2,7 @@
 	"name": "milligram-scss",
 	"version": "1.2.0",
 	"description": "A minimalist CSS framework on SCSS version.",
-	"homepage": "http://milligram.github.io",
+	"homepage": "https://milligram.github.io",
 	"repository": "milligram/milligram-scss",
 	"license": "MIT",
 	"author": "CJ Patoilo <cjpatoilo@gmail.com>",
@@ -28,15 +28,15 @@
 		"stylus"
 	],
 	"ignore": [
+		".appveyor.yml",
 		".editorconfig",
+		".eslintrc",
 		".github",
 		".gitignore",
-		".npmignore",
 		".sasslintrc",
 		".travis.yml",
 		"bower.json",
 		"changelog.md",
-		"component.json",
 		"composer.json",
 		"package.js",
 		"package.json",
@@ -44,30 +44,37 @@
 		"test"
 	],
 	"dependencies": {
-		"normalize.css": "latest"
+		"normalize.css": "~5.0.0"
 	},
 	"devDependencies": {
 		"autoprefixer": "^6.5.3",
+		"banner-cli": "^0.9.2",
+		"copycopy": "0.0.2",
+		"editorconfig-tools": "^0.1.1",
+		"eslint": "^3.14.0",
+		"eslint-config-styled": "^0.0.0",
+		"husky": "^0.11.9",
 		"node-sass": "^3.13.0",
 		"npm-run-all": "^2.3.0",
 		"onchange": "^2.5.0",
 		"postcss-cli": "^2.6.0",
+		"rimraf": "^2.5.4",
 		"sass-lint": "^1.10.2"
 	},
 	"engines": {
-		"node": "^7.0.0"
+		"node": ">=4"
 	},
 	"scripts": {
-		"prestart": "npm install",
-		"pretest": "npm install",
-		"copy": "rm -rf dist && mkdir dist && cp -rf src/* dist",
-		"banner": "for m in dist/*.scss; do echo '//\n// Milligram v1.2.0\n// http://milligram.github.io\n//\n// Copyright (c) 2016 CJ Patoilo\n// Licensed under the MIT license\n//\n' | cat - $m > temp && mv temp $m; done",
-		"autoprefixer": "postcss -u autoprefixer --no-map.inline --autoprefixer.browsers 'last 1 versions' -r test/*.css",
-		"scss": "node-sass --output-style expanded src/milligram.scss test/milligram.css && node-sass --output-style compressed src/milligram.scss test/milligram.min.css",
-		"lint": "sass-lint -c .sasslintrc src/*.scss --verbose --no-exit",
-		"build": "run-s lint scss autoprefixer copy banner",
-		"watch": "onchange src -- npm run build",
-		"start": "run-p watch",
-		"test": "run-s build"
+		"start": "run-p build watch",
+		"build": "run-s clean copy banner sass autoprefixer",
+		"clean": "rimraf dist",
+		"sass": "node-sass --output-style expanded src/milligram.scss test/milligram.css && node-sass --output-style compressed src/milligram.scss test/milligram.min.css",
+		"autoprefixer": "postcss -u autoprefixer --no-map.inline --autoprefixer.browsers \"last 1 versions\" -r test/*.css",
+		"copy": "copycopy src/**/* dist",
+		"banner": "banner-cli dist/*.scss",
+		"watch": "onchange src -- run-p build",
+		"lint": "sass-lint -c .sasslintrc src/*.scss --verbose --no-exit && eslint test -c styled && editorconfig-tools check .",
+		"test": "run-s build lint",
+		"precommit": "run-p test"
 	}
 }

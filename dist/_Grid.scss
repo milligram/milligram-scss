@@ -1,10 +1,10 @@
-//
-// Milligram v1.2.0
-// http://milligram.github.io
-//
-// Copyright (c) 2016 CJ Patoilo
-// Licensed under the MIT license
-//
+/*!
+ * Milligram-scss v1.2.0
+ * https://milligram.github.io
+ *
+ * Copyright (c) 2017 CJ Patoilo
+ * Licensed under the MIT license
+ */
 
 
 // Grid
@@ -66,7 +66,8 @@
 
 	.column {
 		display: block;
-		flex: 1;
+		// IE 11 required specifying the flex-basis otherwise it breaks mobile
+		flex: 1 1 auto;
 		margin-left: 0;
 		max-width: 100%;
 		width: 100%;
