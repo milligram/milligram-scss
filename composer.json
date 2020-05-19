@@ -27,22 +27,6 @@
 		"scss",
 		"stylus"
 	],
-	"ignore": [
-		".appveyor.yml",
-		".editorconfig",
-		".eslintrc",
-		".github",
-		".gitignore",
-		".sasslintrc",
-		".travis.yml",
-		"bower.json",
-		"changelog.md",
-		"composer.json",
-		"package.js",
-		"package.json",
-		"src",
-		"test"
-	],
 	"dependencies": {
 		"normalize.css": "~5.0.0"
 	}
