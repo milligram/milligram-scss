@@ -1,4 +1,7 @@
+#########################
+## SASS Lint File
 ## See rules https://github.com/sasstools/sass-lint/tree/master/docs/rules
+#########################
 
 # Linter Options
 options:
@@ -7,9 +10,9 @@ options:
 
 # File Options
 files:
-  include: src/*.s+(a|c)ss
+  include: 'src/**/*.s+(a|c)ss'
   ignore:
-    - node_modules
+    - 'node_modules'
 
 # Rule Configuration
 rules:
@@ -52,11 +55,11 @@ rules:
   indentation:
     - 2
     -
-      size: tab
+      size: 2
   property-sort-order:
-    - 1
+    - 2
     -
-      order: alphabetical
+      order: 'alphabetical'
       ignore-custom-properties: true
   property-units:
     - 1

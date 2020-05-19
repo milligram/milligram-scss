@@ -55,25 +55,25 @@ In this version, Milligram use [SCSS](http://sass-lang.com/) to give super power
 .selector-b,
 .selector-c,
 .selector-d[type='text'] {
-	box-sizing: border-box;
-	color: #333;
-	content: '';
-	display: inline-block;
-	font-family: 'Helvetica-Neue', 'Helvetica', 'Arial', sans-serif;
-	margin-bottom: 0;
-	margin-left: 5.0rem;
+  box-sizing: border-box;
+  color: #333;
+  content: '';
+  display: inline-block;
+  font-family: 'Helvetica-Neue', 'Helvetica', 'Arial', sans-serif;
+  margin-bottom: 0;
+  margin-left: 5rem;
 
-	.other-selector-a {
-		background: #fff;
+  .other-selector-a {
+    background: #fff;
 
-		.other-selector-b {
-			background: #fff;
-		}
+    .other-selector-b {
+      background: #fff;
+    }
 
-		&.increasing-the-specificity {
-			color: #000;
-		}
-	}
+    &.increasing-the-specificity {
+      color: #000;
+    }
+  }
 }
 ```
 
