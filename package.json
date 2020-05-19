@@ -44,9 +44,6 @@
 		"rimraf": "^2.5.4",
 		"sass-lint": "^1.10.2"
 	},
-	"engines": {
-		"node": ">=4"
-	},
 	"scripts": {
 		"start": "run-p build watch",
 		"build": "run-s clean copy banner sass autoprefixer",
@@ -59,6 +56,10 @@
 		"lint": "sass-lint -c .sasslintrc src/*.scss --verbose --no-exit",
 		"test": "run-s build lint"
 	},
+  "engines": {
+    "node": "^12.16.2",
+    "npm": "^6.14.4"
+  },
 	"prettier": {
 		"jsxSingleQuote": false,
 		"trailingComma": "all"
