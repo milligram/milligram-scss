@@ -2,7 +2,7 @@
 	"name": "milligram-scss",
 	"version": "1.3.0",
 	"description": "A minimalist CSS framework on SCSS version.",
-	"homepage": "https://milligram.github.io",
+	"homepage": "https://milligram.io",
 	"repository": "milligram/milligram-scss",
 	"license": "MIT",
 	"author": "CJ Patoilo <cjpatoilo@gmail.com>",
