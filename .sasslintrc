@@ -13,6 +13,7 @@ files:
   include: 'src/**/*.s+(a|c)ss'
   ignore:
     - 'node_modules'
+    - 'src/_Form.scss'
 
 # Rule Configuration
 rules:
@@ -42,7 +43,7 @@ rules:
   leading-zero:
     - 2
     -
-      include: false
+      include: true
   no-vendor-prefixes:
     - 2
     -
