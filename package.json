@@ -45,16 +45,15 @@
     "sass-lint": "^1.13.1"
   },
   "scripts": {
-    "start": "run-p build watch",
-    "build": "run-s clean copy banner sass autoprefixer",
-    "clean": "rimraf dist",
-    "sass": "node-sass --output-style expanded src/milligram.scss test/milligram.css && node-sass --output-style compressed src/milligram.scss test/milligram.min.css",
     "autoprefixer": "postcss -u autoprefixer --no-map.inline --autoprefixer.browsers \"last 1 versions\" -r test/*.css",
-    "copy": "copycopy src/**/* dist",
     "banner": "banner-cli dist/*.scss",
-    "watch": "onchange src -- run-p build",
-    "lint": "sass-lint -c .sasslintrc src/*.scss --verbose --no-exit",
-    "test": "run-s build lint"
+    "build": "rimraf dist && run-s copy banner sass autoprefixer",
+    "copy": "copycopy src/**/* dist",
+    "lint": "prettier-standard --check && sass-lint --verbose --no-exit",
+    "sass": "node-sass --output-style expanded src/milligram.scss test/milligram.css && node-sass --output-style compressed src/milligram.scss test/milligram.min.css",
+    "start": "run-p build watch",
+    "test": "run-s build",
+    "watch": "onchange src -- run-p build"
   },
   "engines": {
     "node": "^12.16.2",
