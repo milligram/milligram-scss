@@ -1,8 +1,10 @@
 language: node_js
 node_js:
-  - 7
-  - 6
-  - 5
-  - 4
+  - 12
 before_install:
-  - npm i -g npm
+  - npm i -g npm@latest
+cache:
+  directories:
+    - node_modules
+before_script:
+  - npm run lint

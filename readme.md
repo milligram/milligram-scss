@@ -1,4 +1,4 @@
-<a align="center" href="https://milligram.github.io"><img width="100%" src="https://milligram.github.io/images/thumbnail.png" alt="Milligram - A minimalist CSS framework on SCSS version."></a>
+<a align="center" href="https://milligram.io"><img width="100%" src="https://milligram.io/images/thumbnail.png" alt="Milligram - A minimalist CSS framework."></a>
 
 > A minimalist CSS framework on SCSS version.
 
@@ -10,11 +10,9 @@
 [![Download Status](https://img.shields.io/npm/dt/milligram-scss.svg)](https://www.npmjs.com/package/milligram-scss)
 [![Gitter Chat](https://img.shields.io/badge/gitter-join_the_chat-4cc61e.svg)](https://gitter.im/milligram/milligram)
 
-
 ## Why it's awesome
 
 Milligram provides a minimal setup of styles for a fast and clean starting point. Just it! **Only 2kb gzipped!** It's not about a UI framework. Specially designed for better performance and higher productivity with fewer properties to reset resulting in cleaner code. Hope you enjoy!
-
 
 ## Download
 
@@ -36,29 +34,26 @@ $ npm install milligram-scss
 $ yarn add milligram-scss
 ```
 
-
 ## Table of Contents
 
-- [Getting Started](https://milligram.github.io/#getting-started)
-- [Typography](https://milligram.github.io/#typography)
-- [Blockquotes](https://milligram.github.io/#blockquotes)
-- [Buttons](https://milligram.github.io/#buttons)
-- [Lists](https://milligram.github.io/#lists)
-- [Forms](https://milligram.github.io/#forms)
-- [Tables](https://milligram.github.io/#tables)
-- [Grids](https://milligram.github.io/#grids)
-- [Codes](https://milligram.github.io/#codes)
-- [Utilities](https://milligram.github.io/#utilities)
-- [Tips](https://milligram.github.io/#tips)
-- [Browser Support](https://milligram.github.io/#browser-support)
-- [Examples](https://milligram.github.io/#examples)
-
+- [Getting Started](https://milligram.io/#getting-started)
+- [Typography](https://milligram.io/#typography)
+- [Blockquotes](https://milligram.io/#blockquotes)
+- [Buttons](https://milligram.io/#buttons)
+- [Lists](https://milligram.io/#lists)
+- [Forms](https://milligram.io/#forms)
+- [Tables](https://milligram.io/#tables)
+- [Grids](https://milligram.io/#grids)
+- [Code](https://milligram.io/#code)
+- [Utilities](https://milligram.io/#utilities)
+- [Tips](https://milligram.io/#tips)
+- [Browser Support](https://milligram.io/#browser-support)
+- [Examples](https://milligram.io/#examples)
 
 ## Contributing
 
-Want to contribute? Follow these [recommendations](https://github.com/milligram/milligram-scss/blob/master/.github/contributing.md).
-
+Want to contribute? Follow these [recommendations](https://github.com/milligram/milligram-scss/contribute).
 
 ## License
 
-Designed with ♥ by [CJ Patoilo](http://cjpatoilo.com). Licensed under the [MIT License](http://cjpatoilo.mit-license.org).
+Designed with ♥ by [CJ Patoilo](https://twitter.com/cjpatoilo). Licensed under the [MIT License](https://cjpatoilo.com/license).
