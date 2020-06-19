@@ -1,6 +1,6 @@
 {
   "name": "milligram-scss",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "A minimalist CSS framework on SCSS version.",
   "homepage": "https://milligram.io",
   "repository": "milligram/milligram-scss",
@@ -46,7 +46,7 @@
   },
   "scripts": {
     "autoprefixer": "postcss -u autoprefixer --no-map.inline --autoprefixer.browsers \"last 1 versions\" -r test/*.css",
-    "banner": "banner-cli dist/*.scss",
+    "banner": "banner-cli dist/milligram.scss",
     "build": "rimraf dist && run-s copy banner sass autoprefixer",
     "copy": "copycopy src/**/* dist",
     "lint": "prettier-standard --check && sass-lint --verbose --no-exit",
@@ -55,10 +55,6 @@
     "start": "run-p build watch",
     "test": "run-s build",
     "watch": "onchange src -- run-p build"
-  },
-  "engines": {
-    "node": "^12.17.0",
-    "npm": "^6.14.5"
   },
   "prettier": {
     "jsxSingleQuote": false,
